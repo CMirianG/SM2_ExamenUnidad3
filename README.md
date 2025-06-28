@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objetivo Cambios
 
 Implementar un flujo de trabajo automatizado mediante **GitHub Actions** que permita analizar y verificar la calidad del código fuente en un proyecto Flutter. Esto forma parte de la integración de prácticas DevOps para asegurar que los cambios en el repositorio no afecten la funcionalidad del sistema móvil.
 
