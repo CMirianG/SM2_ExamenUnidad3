@@ -1,7 +1,7 @@
 # asistenciacontrol
 # Examen Práctico – Unidad III
 
-**Curso:** Desarrollo de Aplicaciones Móviles  
+**Curso:** SOLUCIONES MÓVILES II SEC. A
 **Fecha:** Junio 2025  
 **Estudiante:** Mirian Cuadros García  
 **Repositorio:** [https://github.com/CMirianG/SM2_ExamenUnidad3](https://github.com/CMirianG/SM2_ExamenUnidad3)
