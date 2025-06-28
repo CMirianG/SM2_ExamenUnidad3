@@ -617,9 +617,9 @@ class _SedesPageState extends State<SedesPage> {
       final QuerySnapshot empleadosSnapshot = await _empleadosRef.get();
       print("Total empleados en la base de datos: ${empleadosSnapshot.docs.length}");
       
-      empleadosSnapshot.docs.forEach((doc) {
+      for (var doc in empleadosSnapshot.docs) {
         print("Empleado: ${doc.data()}");  // Muestra todos los datos del empleado
-      });
+      }
 
       // Consulta por ID de sede
       final QuerySnapshot empleadosPorIdSnapshot = await _empleadosRef

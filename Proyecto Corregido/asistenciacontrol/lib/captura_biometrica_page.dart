@@ -5,7 +5,7 @@ import '../models.dart';
 class CapturaBiometricaPage extends StatefulWidget {
   final Employee employee;
 
-  const CapturaBiometricaPage({Key? key, required this.employee}) : super(key: key);
+  const CapturaBiometricaPage({super.key, required this.employee});
 
   @override
   _CapturaBiometricaPageState createState() => _CapturaBiometricaPageState();

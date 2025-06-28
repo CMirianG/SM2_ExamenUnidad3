@@ -149,13 +149,13 @@ class MapLocationPicker extends StatefulWidget {
   final LatLng? initialLocation; // Ahora es opcional
 
   const MapLocationPicker({
-    Key? key,
+    super.key,
     required this.onLocationSelected,
     this.customMarkerIcon,
     this.title = 'Seleccionar Ubicación',
     this.confirmButtonText = 'Confirmar Ubicación',
     this.initialLocation, // Ya no es required
-  }) : super(key: key);
+  });
 
   @override
   _MapLocationPickerState createState() => _MapLocationPickerState();
@@ -175,7 +175,7 @@ class _MapLocationPickerState extends State<MapLocationPicker> {
   final _searchController = TextEditingController();
   final _searchFocusNode = FocusNode();
   bool _isSearching = false;
-  List<String> _searchHistory = [];
+  final List<String> _searchHistory = [];
   List<String> _searchSuggestions = [];
   bool _showSearchHistory = false;
   Timer? _debounceTimer;

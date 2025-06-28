@@ -9,13 +9,13 @@ class AdminLayout extends StatelessWidget {
   final bool isLoading;
 
   const AdminLayout({
-    Key? key,
+    super.key,
     required this.body,
     required this.title,
     this.actions,
     required this.currentIndex,
     this.isLoading = false,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -166,7 +166,7 @@ class AdminLayout extends StatelessWidget {
 
 // Ejemplo de implementación del Dashboard
 class DashboardPage extends StatefulWidget {
-  const DashboardPage({Key? key}) : super(key: key);
+  const DashboardPage({super.key});
 
   @override
   _DashboardPageState createState() => _DashboardPageState();
@@ -421,7 +421,7 @@ class _DashboardPageState extends State<DashboardPage> {
 
 // Simplemente definimos los encabezados de las otras páginas para completar
 class EmpleadosPage extends StatefulWidget {
-  const EmpleadosPage({Key? key}) : super(key: key);
+  const EmpleadosPage({super.key});
 
   @override
   _EmpleadosPageState createState() => _EmpleadosPageState();
@@ -464,7 +464,7 @@ class _EmpleadosPageState extends State<EmpleadosPage> {
 }
 
 class SedesPage extends StatefulWidget {
-  const SedesPage({Key? key}) : super(key: key);
+  const SedesPage({super.key});
 
   @override
   _SedesPageState createState() => _SedesPageState();
@@ -507,7 +507,7 @@ class _SedesPageState extends State<SedesPage> {
 }
 
 class ReportesPage extends StatefulWidget {
-  const ReportesPage({Key? key}) : super(key: key);
+  const ReportesPage({super.key});
 
   @override
   _ReportesPageState createState() => _ReportesPageState();

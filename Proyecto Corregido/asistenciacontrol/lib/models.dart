@@ -404,7 +404,7 @@ class Sede {
     DateTime? createdAt,
     this.isActive = true,
     this.empleadosCount = 0, // Valor por defecto en 0
-  }) : this.createdAt = createdAt ?? DateTime.now();
+  }) : createdAt = createdAt ?? DateTime.now();
 
   // Método toJson para convertir a Map
   Map<String, dynamic> toJson() {

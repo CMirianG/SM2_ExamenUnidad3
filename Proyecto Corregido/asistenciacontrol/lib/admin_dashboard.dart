@@ -619,8 +619,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                                     onPrimary: Colors.white,
                                     surface: Colors.white,
                                     onSurface: Color(0xFF2D3142),
-                                  ),
-                                  dialogBackgroundColor: Colors.white,
+                                  ), dialogTheme: DialogThemeData(backgroundColor: Colors.white),
                                 ),
                                 child: child!,
                               );
