@@ -7,6 +7,8 @@
 **Repositorio:** [https://github.com/CMirianG/SM2_ExamenUnidad3](https://github.com/CMirianG/SM2_ExamenUnidad3)
 
 ---
+<!-- Cambio forzado para ejecutar workflow -->
+
 
 ## 🎯 Objetivo Cambios
 
@@ -14,7 +16,7 @@ Implementar un flujo de trabajo automatizado mediante **GitHub Actions** que per
 
 ---
 
-## ⚙️ Estructura de Carpetas
+## ⚙️ Estructura de Carpetas/ activar cambios
 
 Se ha creado la siguiente estructura de carpetas en la raíz del repositorio:
 
