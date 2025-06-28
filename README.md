@@ -1,3 +1,3 @@
 # asistenciacontrol
 
-<!-- Cambio de prueba para activar GitHub Actions -->
+<!-- Disparo inicial del workflow -->
